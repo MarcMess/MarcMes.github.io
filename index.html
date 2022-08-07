@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!--Marcus Messamer-->
+		<!--07/12/2022-->
+		<!--This is a webpage for the Lakes Aquarium unit 6-->
+		<title>Marcus Messamer</title>
+		<link rel="stylesheet" href="link.css">
+		<style>
+			body{
+				margin: 0px;
+				width: auto;
+			}
+			header{
+				display: flex;
+				background-color: #c192ec;
+				height:auto;
+				padding: 0px;
+				overflow: auto;		
+			}
+			#gradient1{
+				background: linear-gradient(to right, #141611 15%, #c192ec);
+				width: 80px;
+				z-index:1;
+				padding: 0px;
+			}
+			#name{
+				margin: 0px;
+				padding-top: 15px;
+				padding-left: 60px;
+				width: 200px;
+				color:#141611;
+			}	
+			#titlename{
+				margin: 0px;
+				padding-left: 85px;
+				width: 175px;				
+				color:#141611;
+			}
+			#box1{
+				position: absolute;
+				right: 20px;
+				margin-top: 10px;
+				background-color: #8120db;
+				border: #141611;
+				height: 70px;
+				width: 140px;
+				border-style:solid;
+				z-index: 10;
+			}
+			#box2{
+				position: absolute;
+				right: 100px;
+				margin-top: 40px;
+				background-color: grey;
+				border: #141611;
+				height: 70px;
+				width: 110px;
+				border-style:solid;
+				z-index: 20;
+			}
+			#box3{
+				position: absolute;
+				right: 60px;
+				margin-top: 50px;
+				background-color: white;
+				border: #141611;
+				height: 50px;
+				width: 50px;
+				border-style:solid;
+				z-index: 30;
+			}
+			#box4{
+				position: absolute;
+				right: 150px;
+				margin-top: 20px;
+				background-color: white;
+				border: #141611;
+				height: 25px;
+				width: 100px;
+				border-style:solid;
+				z-index: 30;
+			}
+			#box5{
+				position: absolute;
+				right: 195px;
+				margin-top: 12px;
+				background-color: #8120db;
+				border: #141611;
+				height: 80px;
+				width: 7px;
+				border-style:solid;
+				z-index: 40;
+			}			
+			nav ul{
+				padding: 10px;
+				margin: 0px;
+				background: white;
+				height: auto;
+				border-top:solid;
+				border-bottom: solid;				
+			}			
+			nav li{				
+				height: auto;
+				list-style-type: none;
+				display: inline;
+				padding: 10px;
+			}
+			nav li:hover{				
+				height: 30px;
+				list-style-type: none;
+				display: inline;
+				background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(157,157,157,1) 100%);
+				border-radius: 10%;
+			}
+			nav a{
+    			color:#141611;
+    			text-decoration: none;
+			}
+			#selectedpage{			
+				height: 30px;
+				list-style-type: none;
+				display: inline;
+				background: rgba(157,157,157,1);
+				border-radius: 10%;
+			}
+			#selectedpage a{			
+				color: white;			
+			}
+			#mainbody{
+				background-color: rgba(157,157,157,1);
+				height: 800px;			
+			}
+			section{
+				display: inline;
+				overflow: auto;
+			}
+			#colOne{
+				margin: 20px;
+				float:inline-start;
+			}
+			#colTwo{
+				margin: 20px;
+				float:inline-start;
+			}
+			h5{
+				margin: 0px;
+			}
+			footer{
+				bottom: 0px; 
+				position:fixed; 
+				width: 100%;
+			}
+			
+		</style>	
+	</head>	
+	<body>
+		<div id="container">			
+			<header>
+				<img src="images/headshot.jpg" alt="Marcus Messamer" height="130px">
+				<div id="gradient1">
+					<h1 id="name">Marcus<br>Messamer</h1>
+					<h3 id="titlename">Software Engineer</h3>					
+				</div>
+				<div id="box1"></div>
+				<div id="box2"></div>
+				<div id="box3"></div>
+				<div id="box4"></div>
+				<div id="box5"></div>							
+			</header>
+			<nav id="nav">
+				<ul>
+					<li id="selectedpage"><a href="index.html">Home</a></li>|
+					<li><a href="#" title="">Resume</a></li>|
+					<li><a href="#" title="">Work</a></li>|
+					<li><a href="#" title="">Activities</a></li>|
+					<li><a href="#" title="">Goals</a></li>|
+					<li><a href="#" title="">Letters of Rec</a></li>
+				</ul>				
+			</nav>
+			<div id="mainbody">			
+				<section id="colOne">
+					<img src="images/headshot.jpg" alt="Marcus Messamer" height="100%">						
+				</section>
+				
+				
+				<section id="colTwo">	
+					<h1>About Marcus</h1>
+					<p>
+
+					</p>
+				</section>
+			</div>
+			<footer>
+				<nav>
+					<ul style="background-color: #c192ec;">
+						<h5>
+						<li id="selectedpage"><a href="index.html">Home</a></li>|
+						<li><a href="#" title="">Resume</a></li>|
+						<li><a href="#" title="">Work</a></li>|
+						<li><a href="#" title="">Activities</a></li>|
+						<li><a href="#" title="">Goals</a></li>|
+						<li><a href="#" title="">Letters of Rec</a></li>
+						</h5>
+					</ul>				
+				</nav>
+			</footer>
+		</div><!--end container-->
+	</body>
+</html>
